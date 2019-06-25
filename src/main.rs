@@ -1,6 +1,3 @@
-extern crate clap;
-extern crate toml;
-
 use std::fs;
 use std::process::exit;
 use std::{thread, time};

@@ -1,5 +1,3 @@
-extern crate virt;
-
 use toml::Value;
 use virt::connect::Connect;
 
