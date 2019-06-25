@@ -5,3 +5,6 @@ authors = ["Dylan Stephano-Shachter <dylan@theone.ninja>"]
 edition = "2018"
 
 [dependencies]
+clap = "*"
+toml = "*"
+virt = "*"

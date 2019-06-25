@@ -1,0 +1,13 @@
+[main]
+# uris is a space separated string of libvirt connection URIs
+# The following is for a local qemu connection
+uris = "qemu:///system"
+
+[rules]
+
+    [rules.default]
+    name = "*"
+    hourly = 24
+    daily = 30
+    monthly = 12
+    yearly = 5
